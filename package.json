@@ -1,0 +1,12 @@
+{
+  "name": "monster-slayer",
+  "version": "1.0.0",
+  "description": "Basic RPG battle with VueJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "author": "Jesús Alfredo Morales Damken",
+  "license": "ISC"
+}
