@@ -4,8 +4,10 @@ new Vue({
     disabled: false,
     battleLog: [],
     monsterHealth: {},
+    heroHealth: {},
     lifebar: "",
-    damage: "",
+    heroDamage: "",
+    monsterDamage: "",
     win: false,
     loss: false
   },
@@ -17,8 +19,8 @@ new Vue({
       };
     },
     attack: function() {
-      this.damage = Math.random() * 10;
-      this.lifebar = this.lifebar - this.damage;
+      this.heroDamage = Math.random() * 10;
+      this.lifebar = this.lifebar - this.heroDamage;
       this.monsterHealth = {
         width: this.lifebar + "%"
       };
